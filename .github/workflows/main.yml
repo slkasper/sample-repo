@@ -1,7 +1,7 @@
 name: continuous integration
 on:
   push:
-    branches: [ main ]
+    branches: [ git-actions ]
 jobs:
   test_codebase:
     runs-on: ubuntu-latest
